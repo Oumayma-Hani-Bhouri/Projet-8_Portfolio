@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
+import { FaBars, FaTimes } from "react-icons/fa";
 import Logo from "../../assets/images/logo.png";
 import "../Header/Header.scss";
 
@@ -68,9 +69,11 @@ function Header() {
       </nav>
 
       <div className="hamburger" onClick={toggleMenu}>
-        <span></span>
-        <span></span>
-        <span></span>
+        {isOpen ? (
+          <FaTimes className="icon close-icon" />
+        ) : (
+          <FaBars className="icon" />
+        )}
       </div>
     </header>
   );
