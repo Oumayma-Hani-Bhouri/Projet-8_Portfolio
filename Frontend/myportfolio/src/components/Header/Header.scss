@@ -1,3 +1,5 @@
+@import "../../assets/scss/index.scss";
+
 .header {
   max-width: 1440px;
   width: 100%;
@@ -59,14 +61,14 @@
       & li a {
         text-decoration: none;
         color: rgb(113, 12, 221);
-        font-size: 24px;
+        font-size: 16px;
         font-weight: 500;
 
         @media (max-width: 1024px) {
-          font-size: 18px;
+          font-size: 14px;
         }
         @media (max-width: 768px) {
-          font-size: 28px;
+          font-size: 20px;
         }
       }
 
