@@ -6,16 +6,9 @@
   text-align: center;
   color: #333333;
   margin: 40px;
-
+  gap: 40px;
   h2 {
-    font-size: 34px;
-    color: #333333;
-    margin-bottom: 40px;
-    animation: fade-in 1s ease-in-out;
-
-    @media (max-width: 768px) {
-      font-size: 24px;
-    }
+    margin-bottom: 30px;
   }
 
   .presentation-content {
@@ -30,7 +23,6 @@
       border-radius: 50%;
       object-fit: cover;
       margin-right: 50px;
-      box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
     }
 
     .text-content {
@@ -56,17 +48,10 @@
       .profile-picture {
         margin-bottom: 20px;
         margin-right: 0;
+        width: 160px;
+        height: 160px;
       }
     }
-  }
-}
-
-@keyframes fade-in {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
   }
 }
 

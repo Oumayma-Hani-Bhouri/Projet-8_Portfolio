@@ -29,3 +29,20 @@ body {
     cursor: pointer;
   }
 }
+h2 {
+  font-size: 34px;
+  color: #333333;
+  animation: fade-in 1s ease-in-out;
+
+  @media (max-width: 768px) {
+    font-size: 24px;
+  }
+}
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
