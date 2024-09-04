@@ -6,7 +6,12 @@ const Presentation = () => {
     <section className="presentation" id="presentation">
       <h2>Présentation</h2>
       <div className="presentation-content">
-        <img src={ProfilePicture} alt="Oumayma" className="profile-picture" />
+        <img
+          src={ProfilePicture}
+          alt="Oumayma"
+          className="profile-picture"
+          loading="lazy"
+        />
         <div className="text-content animate-slide-in">
           <p>
             Avec une Licence en Mathématiques et une formation en Développement
