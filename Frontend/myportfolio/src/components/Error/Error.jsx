@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import "../Error/error.scss";
-import ErrorImg from "../../assets/images/ErrorImg.jpg";
+import ErrorImg from "../../assets/images/ErrorImg.webp";
 
 function Error() {
   return (
