@@ -3,7 +3,7 @@ import "../Presentation/Presentation.scss";
 import ProfilePicture from "../../assets/images/ProfilePicture.JPG";
 const Presentation = () => {
   return (
-    <section className="presentation">
+    <section className="presentation" id="presentation">
       <h2>Présentation</h2>
       <div className="presentation-content">
         <img src={ProfilePicture} alt="Oumayma" className="profile-picture" />

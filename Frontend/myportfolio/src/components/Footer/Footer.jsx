@@ -23,6 +23,7 @@ function Footer() {
                 href="https://github.com/Oumayma-Hani-Bhouri"
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label="le lien vers github"
               >
                 <AiFillGithub />
               </a>
@@ -32,6 +33,7 @@ function Footer() {
                 href="https://www.linkedin.com/in/oumayma-b-8b89a4182"
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label="le lien vers Linkedin"
               >
                 <FaLinkedinIn />
               </a>

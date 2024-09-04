@@ -1,11 +1,14 @@
 import React, { useState } from "react";
-import { NavLink } from "react-router-dom";
+import { useNavigate, useLocation } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
 import Logo from "../../assets/images/logo.png";
 import "../Header/Header.scss";
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
+  const [activeSection, setActiveSection] = useState("");
+  const navigate = useNavigate();
+  const location = useLocation();
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
@@ -15,6 +18,21 @@ function Header() {
     setIsOpen(false);
   };
 
+  const handleNavigation = (section) => {
+    if (location.pathname !== "/") {
+      navigate("/", { replace: true });
+      setTimeout(() => {
+        document
+          .getElementById(section)
+          ?.scrollIntoView({ behavior: "smooth" });
+      }, 100);
+    } else {
+      document.getElementById(section)?.scrollIntoView({ behavior: "smooth" });
+    }
+    setActiveSection(section);
+    closeMenu();
+  };
+
   return (
     <header className="header">
       <img className="header-logo" src={Logo} alt="Logo du site" />
@@ -22,48 +40,52 @@ function Header() {
       <nav className={`header_nav ${isOpen ? "active" : ""}`}>
         <ul>
           <li>
-            <NavLink
-              to="/"
-              onClick={closeMenu}
-              className={(header_nav__link) =>
-                header_nav__link.isActive ? "header_nav__link-active" : ""
-              }
+            <a
+              href="#presentation"
+              onClick={() => handleNavigation("presentation")}
+              className={`header_nav__link ${
+                activeSection === "presentation"
+                  ? "header_nav__link-active"
+                  : ""
+              }`}
             >
               Présentation
-            </NavLink>
+            </a>
           </li>
           <li>
-            <NavLink
-              to="/compétences"
-              onClick={closeMenu}
-              className={(header_nav__link) =>
-                header_nav__link.isActive ? "header_nav__link-active" : ""
-              }
+            <a
+              href="#competences"
+              onClick={() => handleNavigation("competences")}
+              className={`header_nav__link ${
+                activeSection === "competences" ? "header_nav__link-active" : ""
+              }`}
             >
               Compétences
-            </NavLink>
+            </a>
           </li>
           <li>
-            <NavLink
-              to="/Réalisations"
-              onClick={closeMenu}
-              className={(header_nav__link) =>
-                header_nav__link.isActive ? "header_nav__link-active" : ""
-              }
+            <a
+              href="#realisations"
+              onClick={() => handleNavigation("realisations")}
+              className={`header_nav__link ${
+                activeSection === "realisations"
+                  ? "header_nav__link-active"
+                  : ""
+              }`}
             >
               Réalisations
-            </NavLink>
+            </a>
           </li>
           <li>
-            <NavLink
-              to="/Contact"
-              onClick={closeMenu}
-              className={(header_nav__link) =>
-                header_nav__link.isActive ? "header_nav__link-active" : ""
-              }
+            <a
+              href="#contact"
+              onClick={() => handleNavigation("contact")}
+              className={`header_nav__link ${
+                activeSection === "contact" ? "header_nav__link-active" : ""
+              }`}
             >
               Contact
-            </NavLink>
+            </a>
           </li>
         </ul>
       </nav>
