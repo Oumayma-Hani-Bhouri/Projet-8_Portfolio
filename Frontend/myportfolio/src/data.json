@@ -1,0 +1,124 @@
+[    
+  
+    
+{
+    "id": "q54xr2p0",
+    "title": "Kasa",
+    "cover": "/images/Kasa/Cover.webp",
+    "pictures": [
+      "/images/Kasa/Img.webp",
+      "/images/Kasa/Img1.webp",
+      "/images/kasa/Img2.webp",
+      "/images/Kasa/Img3.webp",
+      "/images/Kasa/Img4.webp",
+      "/images/Kasa/Img5.webp"
+
+    ],
+    "description": " L'entreprise de location d'appartements entre particuliers, Kasa, a décidé d'entreprendre une refonte totale de son site web. L'objectif est de moderniser la plateforme en adoptant une stack technologique entièrement basée sur JavaScript. Ma mission était démarrer le projet en React et développer l'intégralité de l'application, conformément aux maquettes fournies via Figma"
+,
+    "skills": [
+      "React",
+      "Sass"
+    ],
+    "lien": 
+      "https://github.com/Oumayma-Hani-Bhouri/project-5_React"
+     
+  },
+  {
+    "id": "h84dz5m3",
+    "title": "Mon vieux grimoire",
+    "cover": "/images/MonvieuxGrimoire/Cover.webp",
+    "pictures": [
+      "/images/MonvieuxGrimoire/Img.webp",
+      "/images/MonvieuxGrimoire/Img1.webp",
+      "/images/MonvieuxGrimoire/Img2.webp",
+      "/images/MonvieuxGrimoire/Img3.webp",
+      "/images/MonvieuxGrimoire/Img4.webp",
+      "/images/MonvieuxGrimoire/Img5.webp"
+
+    ],
+    "description": "Un client souhaite ouvrir un site de notation de livres qui s'appelle Mon vieux Grimoire et permet aux membres d'ajouter un nouveau livre et de mettre une note visible par le public. Ma mission était de m'occuper de la partie Back-end"
+,
+    "skills": [
+      "NodeJs",
+      "Express",
+      "Mongodb",
+      "CRUD"
+    ],
+    "lien": 
+      "https://github.com/Oumayma-Hani-Bhouri/project-6_BackEnd"
+     
+  },
+
+{
+    "id": "h47as8y5",
+    "title": "Nina Carducci",
+    "cover": "/images/NinaCarducci/Cover.webp",
+    "pictures": [
+      "/images/NinaCarducci/Img.webp",
+      "/images/NinaCarducci/Img1.webp",
+      "/images/NinaCarducci/Img2.webp",
+      "/images/NinaCarducci/Img3.webp",
+      "/images/NinaCarducci/Img4.webp",
+      "/images/NinaCarducci/Img5.webp"
+    ],
+    "description": "Nina Carducci une photographe émérite souhaite améliorer la visibilité de son site et optimiser son référencement sur les moteurs de recherche. Ma mission pour ce projet était:faire une optimisation globale du site, Mettre en place le référencement local, ajouter les metas pour les réseaux sociaux et corriger les bugs. "
+,
+    "skills": [
+      "LightHouse",
+      "Chrome DevTools",
+      "Wave"
+    ],
+    "lien": 
+      "https://github.com/Oumayma-Hani-Bhouri/project-4_Debug-site"
+     
+    
+  },
+
+{
+    "id": "j24sd4l2",
+    "title": "SophieBluel",
+    "cover": "/images/SophieBluel/Cover.webp",
+    "pictures": [
+      "/images/SophieBluel/Img.webp",
+      "/images/SophieBluel/Img1.webp",
+ "/images/SophieBluel/Img2.webp",
+     "/images/SophieBluel/Img3.webp",
+    "/images/SophieBluel/Img4.webp",
+       "/images/SophieBluel/Img5.webp"
+    ],
+    "description": "L'agence ArchiWebos souhaite finir la conception du site d'une architecte d'intérieur. Ma mission était de développer la page de présentation des travaux de l'architecte,la page de connexion de l'administrateur su site et la modale permettant d'uploader de nouveaux médias "
+,
+    "skills": [
+      "Html",
+      "Css",
+      "Javascript"
+    ],
+    "lien": 
+      "https://github.com/Oumayma-Hani-Bhouri/project-3_javascript"
+},
+
+    {
+        "id": "c67ab8a7",
+        "title": "Booki",
+        "cover": "/images/Booki/Cover.webp",
+        "pictures": [
+          "/images/Booki/Img.webp",
+          "/images/Booki/Img1.webp",
+          "/images/Booki/Img2.webp",
+          "/images/Booki/Img3.webp",
+          "/images/Booki/Img4.webp",
+          "/images/Booki/Img5.webp"
+      ],
+      "description": "La start-up Booki souhaite développer un site Internet qui permette aux usagers de trouver des hébergements et des activités dans la ville de leur choix. Ma mission était d'intégrer l'interface du site avec du code HTML et CSS.",
+      "skills": [
+        "Html",
+        "Css",
+        "Figma"
+      ],
+      "lien": 
+        "https://github.com/Oumayma-Hani-Bhouri/project-2_html-css"
+
+    }
+
+]

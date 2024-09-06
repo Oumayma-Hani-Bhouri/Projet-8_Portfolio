@@ -47,6 +47,17 @@ function Header() {
         <ul>
           <li>
             <a
+              href="#Title"
+              onClick={() => handleNavigation("Title")}
+              className={`header_nav__link ${
+                activeSection === "Title" ? "header_nav__link-active" : ""
+              }`}
+            >
+              Accueil
+            </a>
+          </li>
+          <li>
+            <a
               href="#presentation"
               onClick={() => handleNavigation("presentation")}
               className={`header_nav__link ${

@@ -3,7 +3,7 @@ import "../Title/Title.scss";
 
 const Title = () => {
   return (
-    <section className="title-container">
+    <section className="title-container" id="Title">
       <div className="text-content">
         <h1>
           Bonjour ! <span>Je suis Oumayma, développeuse web </span>{" "}

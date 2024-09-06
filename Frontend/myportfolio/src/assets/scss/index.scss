@@ -4,18 +4,15 @@ body {
   padding: 0;
   background: linear-gradient(135deg, #dfdae5, #e5e1f2);
   gap: 40px;
-  scroll-behavior: smooth;
-
+  section {
+    scroll-margin-top: 70px;
+  }
   ul {
     list-style-type: none;
   }
 
   a {
     text-decoration: none;
-
-    &:hover {
-      text-decoration: underline;
-    }
   }
 
   h1,

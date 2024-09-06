@@ -4,7 +4,6 @@ import Home from "./pages/Home/home";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import Notfoundpage from "./pages/error-page";
-import "../src/assets/scss/App.scss";
 
 const App = () => {
   return (
