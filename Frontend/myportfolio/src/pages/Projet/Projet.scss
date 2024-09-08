@@ -1,0 +1,158 @@
+@import "../../assets/scss/index.scss";
+
+.project-container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  @media (max-width: 1024px) {
+    padding: 15px;
+  }
+
+  @media (max-width: 768px) {
+    padding: 10px;
+  }
+
+  @media (max-width: 480px) {
+    padding: 5px;
+  }
+}
+
+.project-header {
+  margin-bottom: 30px;
+  animation: fadeIn 0.6s ease-in-out;
+}
+
+.project-title {
+  font-weight: bold;
+  color: #333;
+  text-transform: uppercase;
+  animation: slideIn 0.7s ease-in-out;
+  margin-bottom: 50px;
+}
+
+.project-description {
+  font-size: 1.1rem;
+  color: #666;
+  margin: 20px 0;
+  padding: 0 20px;
+  line-height: 1.6;
+  margin-top: 30px;
+  animation: fadeInUp 0.8s ease-in-out;
+  opacity: 0;
+  transform: translateY(20px);
+  animation-fill-mode: forwards;
+
+  @media (max-width: 1024px) {
+    font-size: 1rem;
+  }
+
+  @media (max-width: 768px) {
+    font-size: 0.9rem;
+  }
+
+  @media (max-width: 480px) {
+    font-size: 0.8rem;
+    padding: 0 10px;
+  }
+}
+
+.project-skills {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 30px;
+  @media (max-width: 768px) {
+    flex-wrap: wrap;
+  }
+}
+
+.skill-badge {
+  background-color: #e63946;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 20px;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+  animation: bounceIn 0.7s ease;
+  @media (max-width: 768px) {
+    padding: 8px 10px;
+    font-size: 12px;
+  }
+
+  @media (max-width: 480px) {
+    padding: 5px 8px;
+    font-size: 11px;
+  }
+}
+
+.skill-badge:hover {
+  background-color: #333;
+}
+
+.project-link {
+  display: inline-block;
+  background-color: #0077b6;
+  color: white;
+  padding: 12px 25px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  @media (max-width: 768px) {
+    padding: 10px 15px;
+    font-size: 0.9rem;
+  }
+
+  @media (max-width: 480px) {
+    padding: 8px 10px;
+    font-size: 0.8rem;
+  }
+}
+
+.project-link:hover {
+  background-color: #0096c7;
+  transform: scale(1.05);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes bounceIn {
+  0% {
+    transform: scale(0);
+  }
+  60% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

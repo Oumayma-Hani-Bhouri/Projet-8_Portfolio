@@ -25,6 +25,29 @@
      
   },
   {
+    "id": "z82mp5d2",
+    "title": "Portfolio",
+    "cover": "/images/Portfolio/Cover.webp",
+    "pictures": [
+      "/images/Portfolio/Img.webp",
+      "/images/Portfolio/Img1.webp",
+      "/images/Portfolio/Img2.webp",
+      "/images/Portfolio/Img3.webp",
+      "/images/Portfolio/Img4.webp",
+      "/images/Portfolio/Img5.webp"
+
+    ],
+    "description": " "
+,
+    "skills": [
+      "React",
+      "Sass"
+    ],
+    "lien": 
+      "https://github.com/Oumayma-Hani-Bhouri/Projet-8_Portfolio"
+     
+  },
+  {
     "id": "h84dz5m3",
     "title": "Mon vieux grimoire",
     "cover": "/images/MonvieuxGrimoire/Cover.webp",
@@ -62,7 +85,7 @@
       "/images/NinaCarducci/Img4.webp",
       "/images/NinaCarducci/Img5.webp"
     ],
-    "description": "Nina Carducci une photographe émérite souhaite améliorer la visibilité de son site et optimiser son référencement sur les moteurs de recherche. Ma mission pour ce projet était:faire une optimisation globale du site, Mettre en place le référencement local, ajouter les metas pour les réseaux sociaux et corriger les bugs. "
+    "description": "Nina Carducci une photographe émérite souhaite améliorer la visibilité de son site et optimiser son référencement sur les moteurs de recherche. Ma mission pour ce projet était:faire une optimisation globale du site, mettre en place le référencement local, ajouter les metas pour les réseaux sociaux et corriger les bugs. "
 ,
     "skills": [
       "LightHouse",
@@ -77,7 +100,7 @@
 
 {
     "id": "j24sd4l2",
-    "title": "SophieBluel",
+    "title": "Sophie Bluel",
     "cover": "/images/SophieBluel/Cover.webp",
     "pictures": [
       "/images/SophieBluel/Img.webp",

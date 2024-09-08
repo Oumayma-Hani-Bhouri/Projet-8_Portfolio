@@ -36,6 +36,14 @@ h2 {
     font-size: 24px;
   }
 }
+h3 {
+  font-size: 28px;
+  color: #e63946;
+
+  @media (max-width: 768px) {
+    font-size: 20px;
+  }
+}
 @keyframes fade-in {
   from {
     opacity: 0;
