@@ -39,7 +39,7 @@ const BasicForm = () => {
   }
 
   return (
-    <div className="Contact-container">
+    <section className="Contact-container" id="contact">
       <h2> Contact </h2>
       <form onSubmit={(e) => onSubmit(e)}>
         <div className="formcarry-container">
@@ -78,7 +78,7 @@ const BasicForm = () => {
           <button type="submit">Envoyez</button>
         </div>
       </form>
-    </div>
+    </section>
   );
 };
 export default BasicForm;

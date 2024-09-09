@@ -39,7 +39,7 @@ function Header() {
         className="header-logo"
         src={Logo}
         alt="Logo du site"
-        width="60px"
+        width="65px"
         height="60px"
       />
 
