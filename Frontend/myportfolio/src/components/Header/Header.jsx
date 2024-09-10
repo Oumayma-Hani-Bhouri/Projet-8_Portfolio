@@ -35,13 +35,7 @@ function Header() {
 
   return (
     <header className="header">
-      <img
-        className="header-logo"
-        src={Logo}
-        alt="Logo du site"
-        width="65px"
-        height="50px"
-      />
+      <img className="header-logo" src={Logo} alt="Logo du site" />
 
       <nav className={`header_nav ${isOpen ? "active" : ""}`}>
         <ul>
