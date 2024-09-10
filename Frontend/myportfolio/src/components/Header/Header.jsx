@@ -40,7 +40,7 @@ function Header() {
         src={Logo}
         alt="Logo du site"
         width="65px"
-        height="60px"
+        height="50px"
       />
 
       <nav className={`header_nav ${isOpen ? "active" : ""}`}>

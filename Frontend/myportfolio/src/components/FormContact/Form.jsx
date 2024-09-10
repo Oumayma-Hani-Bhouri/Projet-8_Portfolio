@@ -25,15 +25,12 @@ const BasicForm = () => {
         if (response.code === 200) {
           alert("We received your submission, thank you!");
         } else if (response.code === 422) {
-          // Field validation failed
           setError(response.message);
         } else {
-          // other error from formcarry
           setError(response.message);
         }
       })
 
-      // request related error.
       .catch((error) => setError(error));
     console.error("Error:", error);
   }
