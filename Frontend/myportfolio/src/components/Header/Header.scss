@@ -24,18 +24,18 @@
   }
 
   .header-logo {
-    width: 90px;
-    height: 55px;
+    width: auto;
+
     margin-left: 20px;
 
     @media (max-width: 1024px) {
-      width: 80px;
+      width: 60px;
       height: 55px;
     }
 
     @media (max-width: 768px) {
-      width: 70px;
-      height: 45px;
+      width: 50px;
+      height: 40px;
     }
   }
 
