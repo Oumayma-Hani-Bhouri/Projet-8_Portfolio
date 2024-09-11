@@ -1,6 +1,6 @@
 import React from "react";
 import "../Presentation/Presentation.scss";
-import ProfilePicture from "../../assets/images/ProfilePicture.webp";
+import ProfilePicture from "../../assets/images/ProfilePicture1.webp";
 const Presentation = () => {
   return (
     <section className="presentation" id="presentation">
