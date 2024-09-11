@@ -25,17 +25,19 @@
 
   .header-logo {
     width: auto;
+    height: 60px;
+    object-fit: contain;
 
     margin-left: 20px;
 
     @media (max-width: 1024px) {
-      width: 60px;
       height: 55px;
+      width: auto;
     }
 
     @media (max-width: 768px) {
-      width: 50px;
       height: 40px;
+      width: auto;
     }
   }
 
