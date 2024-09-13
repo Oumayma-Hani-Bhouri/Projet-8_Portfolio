@@ -26,7 +26,7 @@ const Projetdetails = () => {
       </div>
       <Carousel images={projet.pictures} />
 
-      <h3>Technologies utilisées</h3>
+      <h3>Technologies utilisées : </h3>
       <ul className="project-skills">
         {projet.skills.map((skill, index) => (
           <li key={index} className="skill-badge">

@@ -4,7 +4,6 @@ import ProfilePicture from "../../assets/images/ProfilePicture1.webp";
 const Presentation = () => {
   return (
     <section className="presentation" id="presentation">
-      <h2>Présentation</h2>
       <div className="presentation-content">
         <img
           src={ProfilePicture}
@@ -13,12 +12,13 @@ const Presentation = () => {
           loading="lazy"
         />
         <div className="text-content animate-slide-in">
+          <h2>À propos de moi</h2>
           <p>
-            Avec une Licence en Mathématiques et une formation en Développement
-            Web, je suis spécialisée dans la création de sites web dynamiques et
-            intuitifs. Mon parcours me permet de transformer des concepts
-            complexes en solutions simples et élégantes. Parcourez mon portfolio
-            pour découvrir mes projets et savoir-faire !
+            Passionnée par le développement web, je combine une Licence
+            Mathématiques et une formation en Développement Web pour créer des
+            sites dynamiques et fonctionnels. Mon approche consiste à rendre les
+            solutions complexes simples et accessibles. Découvrez mes projets et
+            mon savoir-faire à travers ce portfolio.
           </p>
         </div>
       </div>

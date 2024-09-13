@@ -3,18 +3,15 @@
 .presentation {
   padding: 40px 20px;
   background: linear-gradient(135deg, #f0f4f8, #cfd8dc);
-  text-align: center;
   color: #333333;
   margin-bottom: 40px;
   gap: 40px;
-  h2 {
-    margin-bottom: 30px;
-  }
 
   .presentation-content {
+    margin-left: 50px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     flex-wrap: wrap;
 
     .profile-picture {
@@ -30,6 +27,11 @@
       font-size: 18px;
       color: #555555;
       animation: slide-in 1.5s ease-in-out forwards;
+      text-align: center;
+      h2 {
+        margin-bottom: 30px;
+        text-align: center;
+      }
       @media (max-width: 768px) {
         font-size: 16px;
       }
@@ -39,11 +41,17 @@
       }
     }
   }
-
+  @media (max-width: 1024px) {
+    .presentation-content {
+      flex-direction: column;
+      text-align: center;
+    }
+  }
   @media (max-width: 768px) {
     .presentation-content {
       flex-direction: column;
       text-align: center;
+      margin-left: 20px;
 
       .profile-picture {
         margin-bottom: 20px;

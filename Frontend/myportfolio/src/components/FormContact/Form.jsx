@@ -38,6 +38,7 @@ const BasicForm = () => {
   return (
     <section className="Contact-container" id="contact">
       <h2> Contact </h2>
+      <p> N'hésitez pas à me contacter pour plus d'informations </p>
       <form onSubmit={(e) => onSubmit(e)}>
         <div className="formcarry-container">
           <label htmlFor="name">Nom et Prénom</label>
