@@ -20,7 +20,8 @@
       "React",
       "Sass"
     ],
-    "lien": 
+    "problematique":" La problématique rencontrée était de respecter les contraintes de React et et React Router tout en découpant l'application en composants modulaires, sans utiliser des librairies externes et éviter les erreurs dans la console. La solution apportée était de structurer le projet avec des composants réutilisables, gérer mes routes dynamiquement avec React Router tout en appliquant Sass pour le style ",
+   "lien": 
       "https://github.com/Oumayma-Hani-Bhouri/project-5_React"
      
   },
@@ -38,10 +39,10 @@
 
     ],
     "description": " Ma mission pour ce projet était de créer un portfolio , déployer le site en ligne et optimiser son code et son référencement SEO",
-
     "skills": [
       "React",
       "Sass" ],
+      "problematique":"La problématique rencontrée était de créer un portfolio professionel qui valorise mes compétences tout en en assurant une interface claire et cohérente et en optimisant mon temps. La solution apportée était d'utiliser des modèles de code existants pour gagner du temps, tout en retravaillant mes compétences en React et intégration.  ",
     "lien": 
       "https://github.com/Oumayma-Hani-Bhouri/Projet-8_Portfolio"
      
@@ -67,6 +68,7 @@
       "Mongodb",
       "CRUD"
     ],
+    "problematique":" La problématique rencontrée était de Développer une API pour un site de notation de livres, en collaboration avec un développeur front-end, tout en assurant l'optimisation des images et en respectant les bonnes pratiques du Green Code. La solution apportée était de développer un back-end conforme aux besoins du client, avec une API efficace pour gérer les fonctionnalités de référencement et de notation de livres. L'optimisation des images est également intégrée pour garantir des performances optimales",
     "lien": 
       "https://github.com/Oumayma-Hani-Bhouri/project-6_BackEnd"
      
@@ -91,6 +93,7 @@
       "Chrome DevTools",
       "Wave"
     ],
+    "problematique":"La Problématique rencontrée était de d'optimiser les performances et le référencement (SEO) du site de Nina Carducci, une photographe, tout en corrigeant certains bugs affectant la navigation et l'affichage des filtres dans sa galerie d'images. La solution était d'effectuer une optimisation complète du site en améliorant la performance des images, le SEO global, et l'accessibilité. De plus, j'ai mis en place un référencement local avec Schema.org, ajouté des metas pour les réseaux sociaux, et corrigé les bugs de navigation et d'affichage des filtres dans la galerie. Un rapport détaillant toutes les optimisations et leurs impacts a été fourni.",
     "lien": 
       "https://github.com/Oumayma-Hani-Bhouri/project-4_Debug-site"
      
@@ -116,6 +119,7 @@
       "Css",
       "Javascript"
     ],
+    "problematique":"La problématique rencontrée était de développer plusieurs nouvelles fonctionnalités tout en intégrant le design fourni. La solution était de suivre le tableau Kanban pour coder les pages et les modales demandées.",
     "lien": 
       "https://github.com/Oumayma-Hani-Bhouri/project-3_javascript"
 },
@@ -138,6 +142,7 @@
         "Css",
         "Figma"
       ],
+      "problematique":" La problématique était de développer un nouveau site permettant de rechercher des hébergements et des activités, avec un respect strict des spécifications fonctionnelles et techniques. La solution était d'intégrer l'interface du site en utilisant uniquement du HTML et du CSS, selon les maquettes fournies par l'UI designer.",
       "lien": 
         "https://github.com/Oumayma-Hani-Bhouri/project-2_html-css"
 

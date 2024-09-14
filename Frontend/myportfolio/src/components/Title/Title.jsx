@@ -6,7 +6,7 @@ const Title = () => {
     <section className="title-container" id="Title">
       <div className="text-content">
         <h1>
-          Bonjour ! <span>Je suis Oumayma, développeuse web </span>{" "}
+          Hey ! <span>Je suis Oumayma, développeuse web </span>{" "}
         </h1>
         <p>
           Passionnée par la création de sites web interactifs et performants.

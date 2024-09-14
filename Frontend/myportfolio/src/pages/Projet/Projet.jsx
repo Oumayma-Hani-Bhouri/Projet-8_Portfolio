@@ -25,7 +25,6 @@ const Projetdetails = () => {
         </div>
       </div>
       <Carousel images={projet.pictures} />
-
       <h3>Technologies utilisées : </h3>
       <ul className="project-skills">
         {projet.skills.map((skill, index) => (
@@ -34,6 +33,11 @@ const Projetdetails = () => {
           </li>
         ))}
       </ul>
+      <div className="project-issues">
+        <h3>Problématiques rencontrées et solutions :</h3>
+        <p>{projet.problematique}</p>
+      </div>
+
       <div className="project-links">
         {projet.lien && (
           <a
