@@ -6,6 +6,12 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   gap: 40px;
+  @media (max-width: 768px) {
+    body {
+      background-size: contain;
+    }
+  }
+
   section {
     scroll-margin-top: 70px;
   }
@@ -40,7 +46,7 @@ h2 {
 }
 h3 {
   font-size: 28px;
-  color: #e63946;
+  color: #c9c2c2;
 
   @media (max-width: 768px) {
     font-size: 20px;

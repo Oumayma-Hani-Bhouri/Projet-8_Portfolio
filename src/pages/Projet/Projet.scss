@@ -25,7 +25,7 @@
 
 .project-title {
   font-weight: bold;
-  color: #333;
+  color: white;
   text-transform: uppercase;
   animation: slideIn 0.7s ease-in-out;
   margin-bottom: 50px;
@@ -33,7 +33,7 @@
 
 .project-description {
   font-size: 1.1rem;
-  color: #666;
+  color: white;
   margin: 20px 0;
   padding: 0 20px;
   line-height: 1.6;
@@ -94,7 +94,7 @@
 
 .project-issues {
   margin-top: 20px;
-  background-color: #f9f9f9;
+
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -105,14 +105,14 @@
   }
 
   p {
-    color: #555;
+    color: white;
     font-size: 16px;
     line-height: 1.6;
   }
 }
 .project-link {
   display: inline-block;
-  background-color: #76049f;
+  background-color: #383439;
   color: white;
   padding: 12px 25px;
   border-radius: 25px;
@@ -131,7 +131,7 @@
 }
 
 .project-link:hover {
-  background-color: #b0085c;
+  background-color: #df2626;
   transform: scale(1.05);
 }
 
