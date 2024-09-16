@@ -20,7 +20,7 @@
       "React",
       "Sass"
     ],
-    "problematique":" La problématique rencontrée était de respecter les contraintes de React et et React Router tout en découpant l'application en composants modulaires, sans utiliser des librairies externes et éviter les erreurs dans la console. La solution apportée était de structurer le projet avec des composants réutilisables, gérer mes routes dynamiquement avec React Router tout en appliquant Sass pour le style ",
+    "problematique":" La problématique rencontrée était de respecter les contraintes de React et React Router tout en découpant l'application en composants modulaires, sans utiliser des librairies externes et éviter les erreurs dans la console. La solution apportée était de structurer le projet avec des composants réutilisables, gérer mes routes dynamiquement avec React Router tout en appliquant Sass pour le style ",
    "lien": 
       "https://github.com/Oumayma-Hani-Bhouri/project-5_React"
      

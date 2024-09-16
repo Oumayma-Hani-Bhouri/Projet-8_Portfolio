@@ -7,6 +7,7 @@ $anim-delay: calc($anim-dur / 8);
   flex-direction: column;
   text-align: center;
   gap: 30px;
+  background: linear-gradient(135deg, #f0f4f8, #cfd8dc);
   h2 {
     margin-bottom: 30px;
   }

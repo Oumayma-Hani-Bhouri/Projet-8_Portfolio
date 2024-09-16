@@ -2,8 +2,7 @@
 
 .presentation {
   padding: 40px 20px;
-  background: linear-gradient(135deg, #f0f4f8, #cfd8dc);
-  color: #333333;
+
   margin-bottom: 40px;
   gap: 40px;
 
@@ -25,7 +24,7 @@
     .text-content {
       max-width: 600px;
       font-size: 18px;
-      color: #555555;
+      color: white;
       animation: slide-in 1.5s ease-in-out forwards;
       text-align: center;
       h2 {

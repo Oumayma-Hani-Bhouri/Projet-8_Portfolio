@@ -2,7 +2,9 @@ body {
   font-family: "Montserrat", sans-serif;
   margin: 0;
   padding: 0;
-  background: linear-gradient(135deg, #dfdae5, #e5e1f2);
+  background-image: url("../../assets/images/shooting-star-2024127_1280.png");
+  background-size: cover;
+  background-repeat: no-repeat;
   gap: 40px;
   section {
     scroll-margin-top: 70px;
@@ -29,7 +31,7 @@ body {
 }
 h2 {
   font-size: 34px;
-  color: #333333;
+  color: #aca7a7;
   animation: fade-in 1s ease-in-out;
 
   @media (max-width: 768px) {
