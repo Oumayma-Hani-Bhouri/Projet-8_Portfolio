@@ -14,11 +14,12 @@ const Presentation = () => {
         <div className="text-content animate-slide-in">
           <h2>À propos de moi</h2>
           <p>
-            Avec une formation en Mathématiques et en Développement Web, j'allie
-            logique et créativité pour concevoir des sites à la fois dynamiques
-            et intuitifs. Mon approche vise à simplifier les solutions complexes
-            tout en garantissant une expérience utilisateur optimale. Explorez
-            mes projets et découvrez mon expertise à travers ce portfolio
+            Grâce à mon diplôme en Mathématiques et la formation en
+            Développement Web, je mets en œuvre des compétences techniques
+            solides pour concevoir des sites modernes et intuitifs. Mon objectif
+            est de rendre la technologie accessible et de proposer des solutions
+            efficaces et adaptées aux besoins de chaque projet. Plongez dans mon
+            portfolio pour découvrir mes réalisations et mon savoir-faire.
           </p>
         </div>
       </div>
